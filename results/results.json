@@ -20,17 +20,7 @@
     },
     "wards_median": 16.0,
     "wards_max": 276,
-    "ward_outlier_games": 216,
-    "top_correlations": {
-      "redGoldDiff": 0.511,
-      "blueGoldDiff": 0.511,
-      "blueExperienceDiff": 0.49,
-      "redExperienceDiff": 0.49,
-      "blueTotalGold": 0.417,
-      "blueGoldPerMin": 0.417,
-      "redTotalGold": 0.411,
-      "redGoldPerMin": 0.411
-    }
+    "ward_outlier_games": 216
   },
   "preprocessing": {
     "dropped": {
