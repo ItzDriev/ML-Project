@@ -75,10 +75,10 @@
     "learning_rate": 1.0,
     "n_iterations": 1000,
     "final_loss": {
-      "0.001": 0.559357437103953,
-      "0.01": 0.5311173597561055,
-      "0.1": 0.5275237454011288,
-      "1.0": 0.5261817756597139
+      "0.001": 0.5604982123960603,
+      "0.01": 0.5325844418123653,
+      "0.1": 0.5290088624784285,
+      "1.0": 0.5278074815022743
     }
   },
   "rf_tuning": {
@@ -96,135 +96,135 @@
       "None"
     ],
     "train_acc": [
-      0.7318739719094015,
-      0.7332658484119955,
-      0.7368088067822346,
-      0.7388333544223713,
-      0.7526255852208023,
-      0.7880551689231937,
-      0.8472731873971909,
-      0.9911426040744021,
+      0.7292167531317222,
+      0.7312413007718588,
+      0.7340250537770467,
+      0.7374414779197773,
+      0.7500949006706314,
+      0.7837530051879034,
+      0.8404403391117298,
+      0.9913956725294192,
       1.0,
       1.0
     ],
     "cv_acc": [
-      0.7259283100745402,
-      0.7287121594248152,
-      0.7295974347272596,
-      0.7304835106766266,
-      0.7279525856892368,
-      0.7316223508594945,
-      0.72909126574272,
-      0.7247897100857492,
-      0.725295078423366,
-      0.7252956388762118
+      0.7263055749045229,
+      0.7273177527442172,
+      0.7284567530564695,
+      0.7285829350114893,
+      0.7289629220410092,
+      0.7276973394502757,
+      0.7278240017934492,
+      0.7235224461364783,
+      0.7240276543447106,
+      0.7241540764938069
     ],
-    "best_depth": 8
+    "best_depth": 6
   },
   "test": {
     "logreg": {
-      "train_accuracy": 0.7375680121472858,
-      "accuracy": 0.715080971659919,
-      "precision": 0.7108673978065803,
-      "recall": 0.7231237322515213,
-      "f1": 0.7169431875314228,
-      "confusion_matrix": [
-        [
-          700,
-          290
-        ],
-        [
-          273,
-          713
-        ]
-      ]
-    },
-    "rf": {
-      "train_accuracy": 0.7880551689231937,
-      "accuracy": 0.7196356275303644,
-      "precision": 0.7236024844720497,
-      "recall": 0.7089249492900609,
-      "f1": 0.7161885245901639,
+      "train_accuracy": 0.735037327597115,
+      "accuracy": 0.7322874493927125,
+      "precision": 0.7305751765893037,
+      "recall": 0.7342799188640974,
+      "f1": 0.7324228629236217,
       "confusion_matrix": [
         [
           723,
           267
         ],
         [
-          287,
-          699
+          262,
+          724
+        ]
+      ]
+    },
+    "rf": {
+      "train_accuracy": 0.7500949006706314,
+      "accuracy": 0.728744939271255,
+      "precision": 0.731006160164271,
+      "recall": 0.7221095334685599,
+      "f1": 0.726530612244898,
+      "confusion_matrix": [
+        [
+          728,
+          262
+        ],
+        [
+          274,
+          712
         ]
       ]
     },
     "rf_default": {
       "train_accuracy": 1.0,
-      "accuracy": 0.7206477732793523,
-      "precision": 0.7255717255717256,
-      "recall": 0.7079107505070994,
-      "f1": 0.7166324435318275,
+      "accuracy": 0.7277327935222672,
+      "precision": 0.7309278350515463,
+      "recall": 0.7190669371196755,
+      "f1": 0.7249488752556237,
       "confusion_matrix": [
         [
-          726,
-          264
+          729,
+          261
         ],
         [
-          288,
-          698
+          277,
+          709
         ]
       ]
     },
     "majority_baseline": 0.5010121457489879,
-    "gold_rule_baseline": 0.7181174089068826
+    "gold_rule_baseline": 0.7145748987854251
   },
   "logreg_weights": {
-    "redDragons": -0.1603,
-    "blueKills": -0.1297,
-    "blueTotalMinionsKilled": -0.1206,
-    "blueTowersDestroyed": -0.0424,
-    "blueAssists": -0.0417,
-    "blueWardsPlaced": -0.041,
-    "redAvgLevel": -0.0282,
-    "redWardsPlaced": -0.0224,
-    "redHeralds": -0.0193,
-    "redWardsDestroyed": -0.0073,
-    "blueHeralds": -0.0004,
-    "blueWardsDestroyed": 0.0089,
-    "blueTotalJungleMinionsKilled": 0.0126,
-    "blueAvgLevel": 0.0133,
-    "blueFirstBlood": 0.0349,
-    "redTotalJungleMinionsKilled": 0.0693,
-    "redTowersDestroyed": 0.0885,
-    "redAssists": 0.0939,
-    "blueDeaths": 0.0983,
-    "redTotalMinionsKilled": 0.1171,
-    "blueDragons": 0.1608,
-    "blueExperienceDiff": 0.4574,
-    "blueGoldDiff": 1.3162
+    "redDragons": -0.159,
+    "blueTotalMinionsKilled": -0.1025,
+    "blueTowersDestroyed": -0.0724,
+    "blueKills": -0.062,
+    "blueAssists": -0.0546,
+    "blueWardsPlaced": -0.0419,
+    "blueWardsDestroyed": -0.026,
+    "redAvgLevel": -0.0198,
+    "redWardsPlaced": -0.0138,
+    "redHeralds": -0.011,
+    "redWardsDestroyed": 0.0008,
+    "blueAvgLevel": 0.0028,
+    "blueFirstBlood": 0.0041,
+    "blueTotalJungleMinionsKilled": 0.0293,
+    "blueHeralds": 0.0305,
+    "redTotalJungleMinionsKilled": 0.0668,
+    "redAssists": 0.0684,
+    "blueDeaths": 0.0776,
+    "redTowersDestroyed": 0.0878,
+    "blueDragons": 0.1332,
+    "redTotalMinionsKilled": 0.1358,
+    "blueExperienceDiff": 0.4666,
+    "blueGoldDiff": 1.2721
   },
-  "logreg_bias": 0.0014808935595884113,
+  "logreg_bias": -0.0018297315354737097,
   "rf_importance": {
-    "blueTowersDestroyed": 0.0021,
-    "redTowersDestroyed": 0.0023,
-    "redHeralds": 0.0028,
-    "blueHeralds": 0.0031,
-    "blueFirstBlood": 0.0094,
-    "blueWardsDestroyed": 0.0121,
-    "redWardsDestroyed": 0.0136,
-    "redDragons": 0.0176,
-    "redWardsPlaced": 0.0182,
-    "blueWardsPlaced": 0.0187,
-    "blueDragons": 0.0195,
-    "redTotalJungleMinionsKilled": 0.02,
-    "blueTotalJungleMinionsKilled": 0.0214,
-    "redTotalMinionsKilled": 0.0294,
-    "redAssists": 0.031,
-    "blueTotalMinionsKilled": 0.0319,
-    "blueAssists": 0.0401,
-    "blueKills": 0.0461,
-    "blueDeaths": 0.0525,
-    "blueAvgLevel": 0.0562,
-    "redAvgLevel": 0.0573,
-    "blueExperienceDiff": 0.2268,
-    "blueGoldDiff": 0.268
+    "blueTowersDestroyed": 0.0009,
+    "redHeralds": 0.001,
+    "redTowersDestroyed": 0.0011,
+    "blueHeralds": 0.002,
+    "blueWardsDestroyed": 0.0043,
+    "redWardsDestroyed": 0.0048,
+    "redWardsPlaced": 0.0073,
+    "blueFirstBlood": 0.0085,
+    "blueWardsPlaced": 0.0087,
+    "redTotalJungleMinionsKilled": 0.0088,
+    "blueTotalJungleMinionsKilled": 0.0115,
+    "redTotalMinionsKilled": 0.0175,
+    "blueTotalMinionsKilled": 0.0193,
+    "redDragons": 0.0196,
+    "blueDragons": 0.0205,
+    "redAssists": 0.0309,
+    "blueAssists": 0.0332,
+    "blueDeaths": 0.054,
+    "blueKills": 0.0611,
+    "blueAvgLevel": 0.0619,
+    "redAvgLevel": 0.0802,
+    "blueExperienceDiff": 0.2383,
+    "blueGoldDiff": 0.3046
   }
 }
